@@ -1,0 +1,27 @@
+{
+    "compileOnSave": true,
+    "buildOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "umd",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": true,
+        "outFile": "./dist/build.js",
+        "sourceMap": false
+    },
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "!node_modules/**",
+        "!typings/**"
+    ],
+    "files": [
+        "src/app.ts",
+        "src/components/layout.ts"
+    ]
+}
